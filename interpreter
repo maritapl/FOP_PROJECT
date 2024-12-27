@@ -1,6 +1,7 @@
-
-//prime number check
+//Kotlin
+//prime number check 
 public static void isPrime(String code) {
+
         int number = 0;
         String[] lines = code.split("\n");
         for (String line : lines) {
@@ -8,6 +9,7 @@ public static void isPrime(String code) {
                 number = Integer.parseInt(line.split("=")[1].trim());
             }
         }
+
         boolean isPrime = true;
         if (number <= 1) {
             isPrime = false;
