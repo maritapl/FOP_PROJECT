@@ -10,7 +10,7 @@ public class Factorial {
 
 
             if (N < 0) {
-                System.out.println("Factorial is not defined for negative numbers.");
+                System.out.println("Factorial is not defined for negative numbers.gooood boyyyyyy   ");
             } else {
 
                 long factorial = 1;
