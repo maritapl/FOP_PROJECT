@@ -13,14 +13,14 @@ public class GCD {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Take user input for two integers
+
         System.out.print("Enter the first number: ");
         int a = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
         int b = scanner.nextInt();
 
-        // Calculate and print the GCD
+
         int gcd = findGCD(a, b);
         System.out.println("The GCD of " + a + " and " + b + " is: " + gcd);
 
