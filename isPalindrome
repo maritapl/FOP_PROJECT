@@ -1,8 +1,0 @@
- public static void isPalindrome(String code) {
-        int number = 0;
-        String[] lines = code.split("\n");
-        for (String line : lines) {
-            if (line.startsWith("var number")) {
-                number = Integer.parseInt(line.split("=")[1].trim());
-            }
-        }
