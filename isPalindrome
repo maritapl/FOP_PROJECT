@@ -1,0 +1,24 @@
+public static void isPalindrome(String code) {
+    int number = 0;
+    String[] lines = code.split("\n");
+    for (String line : lines) {
+        if (line.startsWith("var number")) {
+            number = Integer.parseInt(line.split("=")[1].trim());
+        }
+    }
+
+    int originalNumber = number;
+    int reversedNumber = 0;
+
+    while (number != 0) {
+        int digit = number % 10;
+        reversedNumber = reversedNumber * 10 + digit;
+        number /= 10;
+    }
+
+    if (originalNumber == reversedNumber) {
+        System.out.println("Is palindrome: True");
+    } else {
+        System.out.println("Is palindrome: False");
+    }
+}
