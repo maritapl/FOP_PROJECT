@@ -1,4 +1,4 @@
- public static void isPalindrome(String code) {
+ public static void reverseNumber(String code) {
         int number = 0;
         String[] lines = code.split("\n");
         for (String line : lines) {
@@ -6,3 +6,4 @@
                 number = Integer.parseInt(line.split("=")[1].trim());
             }
         }
+
