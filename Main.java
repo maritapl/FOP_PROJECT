@@ -17,7 +17,6 @@ public class Main {
 
         System.out.println("Reversed number: " + reversed);
     }
-
     public static void isPrime(String code) {
         int number = 0;
         String[] lines = code.split("\n");
@@ -42,3 +41,4 @@ public class Main {
         System.out.println("Is number prime: " + isPrime);
     }
 }
+
