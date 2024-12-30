@@ -1,19 +1,16 @@
 import java.util.*;
 
 public class SimpleInterpreter {
-    private final Map<String, Integer> variables = new HashMap<>(); // Variable storage
+    private final Map<String, Integer> variables = new HashMap<>();
 
     public void eval(String code) {
-        String[] lines = code.split(";"); // Split by statement terminator
+        String[] lines = code.split(";");
         for (String line : lines) {
             line = line.trim();
             if (line.isEmpty()) continue;
-
-            // Handle variable assignment
             if (line.startsWith("val")) {
                 handleAssignment(line);
             }
-            // Handle algorithm execution
             else if (line.startsWith("algorithm")) {
                 handleAlgorithm(line);
             }
@@ -48,8 +45,6 @@ public class SimpleInterpreter {
             default -> System.out.println("Unknown algorithm: " + algorithm);
         }
     }
-
-    // Algorithm Implementations
     private void executeSumFirstN() {
         int n = variables.getOrDefault("N", 0);
         int sum = 0;
@@ -157,23 +152,27 @@ public class SimpleInterpreter {
     public static void main(String[] args) {
         SimpleInterpreter interpreter = new SimpleInterpreter();
 
-        // Sample program
         String program = """
             val N = 10;
             algorithm sumFirstN;
+            val N = 5;
             algorithm factorial;
             val A = 48;
             val B = 18;
             algorithm gcd;
             val NUM = 1234;
             algorithm reverseNumber;
+            val NUM = 13;
             algorithm isPrime;
+            val NUM = 121;
             algorithm isPalindrome;
             val NUM = 3947;
             algorithm largestDigit;
+            val NUM = 1234;
             algorithm sumOfDigits;
             val NUM = 5;
             algorithm multiplicationTable;
+            val N = 10;
             algorithm fibonacci;
         """;
 
