@@ -1,4 +1,4 @@
-                   Simple Kotlin Interpreter Project
+                                                       Simple Kotlin Interpreter Project
                                                                **Overview**
 This project involves building an interpreter that reads Kotlin code line by line, analyzes it, and executes it immediately. The interpreter will support a minimal subset of Kotlin, focusing on basic constructs like variables, arithmetic, conditionals, and loops.
 
