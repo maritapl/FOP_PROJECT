@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class task10 {
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(new File("/Users/User/IdeaProjects/FOP/src/task8.kt"))) {
+        try (Scanner scanner = new Scanner(new File("/Users/User/IdeaProjects/FOP/src/task10.kt"))) {
             int n = 0;
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine().trim();
