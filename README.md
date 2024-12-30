@@ -1,8 +1,8 @@
-                                                       Simple Kotlin Interpreter Project
-                                                               **Overview**
+                                                         Simple Kotlin Interpreter Project
+                                                                 **Overview**
 This project involves building an interpreter that reads Kotlin code line by line, analyzes it, and executes it immediately. The interpreter will support a minimal subset of Kotlin, focusing on basic constructs like variables, arithmetic, conditionals, and loops.
 
-                                                                  Features
+                                                                   Features
 **Supported Constructs:**
 
 Variable Assignment: Define and update variables.
@@ -36,7 +36,7 @@ Find the Largest Digit in a Number
 Sum of Digits
 Multiplication Table
 Nth Fibonacci Number
-                                                                             Deliverables
+                                                                   Deliverables
 A working interpreter for the specified Kotlin subset.
 Test cases demonstrating algorithm execution.
 Documentation with usage instructions and examples.
