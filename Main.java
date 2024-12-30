@@ -1,4 +1,6 @@
 public class Main {
+    public static void main(String[] args) {
+    }
     public static void reverseNumber(String code) {
         int number = 0;
         String[] lines = code.split("\n");
