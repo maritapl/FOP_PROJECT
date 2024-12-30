@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SimpleInterpreter {
+public class SimpleInterpreter{
     private final Map<String, Integer> variables = new HashMap<>();
 
     public void eval(String code) {
@@ -179,4 +179,3 @@ public class SimpleInterpreter {
         interpreter.eval(program);
     }
 }
-
