@@ -1,4 +1,6 @@
 public class Main {
+    public static void main(String[] args) {
+    }
     public static void reverseNumber(String code) {
         int number = 0;
         String[] lines = code.split("\n");
@@ -7,7 +9,6 @@ public class Main {
                 number = Integer.parseInt(line.split("=")[1].trim());
             }
         }
-
         int reversed = 0;
         while (number != 0) {
             int digit = number % 10;
@@ -17,6 +18,7 @@ public class Main {
 
         System.out.println("Reversed number: " + reversed);
     }
+
     public static void isPrime(String code) {
         int number = 0;
         String[] lines = code.split("\n");
@@ -37,8 +39,6 @@ public class Main {
                 }
             }
         }
-
         System.out.println("Is number prime: " + isPrime);
     }
 }
-
