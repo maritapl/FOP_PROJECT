@@ -1,7 +1,7 @@
                                                Simple Kotlin Interpreter Project
 **Overview**
 
-This project involves building an interpreter that reads Kotlin code line by line, analyzes it, and executes it immediately. The interpreter will support a minimal subset of Kotlin, focusing on basic constructs like variables, arithmetic, conditionals, and loops.
+This program is an interpreter that reads code written in Kotlin line by line, analyzes each command, and executes it immediately. It uses a syntax inspired by Kotlin, like val N = 10;, to assign values to variables and execute specific algorithms. These include calculating the sum of the first N numbers, finding the factorial of a number, determining the greatest common divisor (GCD) of two numbers, reversing a number, checking if a number is prime, checking if a number is a palindrome, finding the largest digit in a number, calculating the sum of a number’s digits, printing the multiplication table of a number, and finding the Nth Fibonacci number.
 
                                                      Features
 **Supported Constructs:**
