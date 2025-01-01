@@ -2,14 +2,11 @@ public class Main {
     public static void main(String[] args) {
         // No implementation inside main; methods should be called here if needed
     }
-
     // Method to reverse the number extracted from the given code
     public static void reverseNumber(String code) {
         int number = 0; // Variable to store the extracted number
-
         // Split the input code into lines
         String[] lines = code.split("\n");
-
         // Loop through each line of the code to find the variable declaration
         for (String line : lines) {
             // Check if the line declares the variable "number"
